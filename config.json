@@ -1,0 +1,26 @@
+{
+  "scanPaths": ["./src", "./lib", "./types", "./components"],
+  "excludePaths": [
+    "node_modules",
+    ".next",
+    "dist",
+    "build",
+    ".git",
+    "coverage",
+    ".nyc_output",
+    "out",
+    "public"
+  ],
+  "fileExtensions": [".ts", ".tsx"],
+  "excludeExtensions": [
+    ".d.ts",
+    ".test.ts",
+    ".spec.ts",
+    ".stories.ts",
+    ".config.ts",
+    ".setup.ts"
+  ],
+  "minTypeLength": 5,
+  "outputFormat": "console",
+  "outputFile": "type-duplicates-report.json"
+}

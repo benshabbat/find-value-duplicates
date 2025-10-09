@@ -1,0 +1,48 @@
+{
+  "name": "find-value-duplicates",
+  "version": "1.0.0",
+  "description": "A tool to find TypeScript interfaces and types with identical content but different names",
+  "main": "index.js",
+  "bin": {
+    "find-value-duplicates": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "scan": "node index.js",
+    "scan:json": "node index.js --output=json",
+    "scan:both": "node index.js --output=both",
+    "test": "node test/test.js",
+    "example": "node index.js ./examples",
+    "prepublishOnly": "npm test",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "typescript",
+    "duplicates",
+    "interfaces",
+    "types",
+    "code-analysis",
+    "refactoring",
+    "static-analysis"
+  ],
+  "author": "benshabbat",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benshabbat/find-value-duplicates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benshabbat/find-value-duplicates/issues"
+  },
+  "homepage": "https://github.com/benshabbat/find-value-duplicates#readme",
+  "files": [
+    "index.js",
+    "config.json",
+    "README.md",
+    "examples/"
+  ]
+}
