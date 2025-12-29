@@ -1,6 +1,6 @@
 {
   "name": "find-value-duplicates",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool to find TypeScript interfaces and types with identical content but different names",
   "main": "index.js",
   "bin": {
