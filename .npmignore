@@ -1,0 +1,12 @@
+# node_modules/
+test/
+examples/
+*.log
+.git
+.DS_Store
+coverage/
+.github/
+.vscode/
+.idea/
+*.tgz
+type-duplicates-report.json
